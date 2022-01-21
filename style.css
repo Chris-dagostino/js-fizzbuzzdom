@@ -12,15 +12,17 @@ h1 {
     text-align: center;
     font-size: 100px;
     color: white;
+    margin-top: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #container {
     width: 100%;
     max-width: 900px;
-    margin: 100px auto;
+    margin: 40px auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .box {
