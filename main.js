@@ -3,17 +3,18 @@ let contElement = document.getElementById ('container')
 
 for (let i=1 ; i <= 100 ; i++ ) {
 
-    contElement.innerHTML += "<div class='box'>" + i + "</div>"
 
-    if () {
+    if (i % 3 == 0) {
         contElement.innerHTML += "<div class='Fizz'>" + i + "</div>"
     }
-    else if  () {
+    else if  (i % 5 == 0) {
         contElement.innerHTML += "<div class='Buzz'>" + i + "</div>"
     }
-    else () {
+    else if ((i % 3 == 0) && (i % 5 == 0)) {
         contElement.innerHTML += "<div class='FlizzBuzz'>" + i + "</div>"
-
+    }
+    else {
+        contElement.innerHTML += "<div class='box'>" + i + "</div>"
     }
 
 }
