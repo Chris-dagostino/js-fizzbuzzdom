@@ -32,38 +32,27 @@ h1 {
     margin: 5px;
     justify-content: center;
     align-items: center;
-    background-color: #0180a8;
 }
 
 .Fizz {
-    width: 100px;
-    height: 100px;
-    display: flex;
-    margin: 5px;
-    justify-content: center;
-    align-items: center;
+    
     background-color:#0bd6a1 ;
     
 }
 
 .Buzz {
-    width: 100px;
-    height: 100px;
-    display: flex;
-    margin: 5px;
-    justify-content: center;
-    align-items: center;
+  
     background-color:#ffd166 ;
 
 }
 
 .FizzBuzz {
-    width: 100px;
-    height: 100px;
-    display: flex;
-    margin: 5px;
-    justify-content: center;
-    align-items: center;
+   
     background-color:#f0466f ;
     
+}
+
+.none {
+    background-color: #0180a8;
+
 }
