@@ -12,11 +12,12 @@ h1 {
     text-align: center;
     font-size: 100px;
     color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.container {
+#container {
     width: 100%;
-    max-width: 700px;
+    max-width: 900px;
     margin: 100px auto;
     display: flex;
     flex-wrap: wrap;
@@ -33,16 +34,34 @@ h1 {
 }
 
 .Fizz {
-    background-color: ;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color:#0bd6a1 ;
     
 }
 
 .Buzz {
-    background-color: ;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color:#ffd166 ;
 
 }
 
-.flizzBuzz {
-    background-color: ;
+.FizzBuzz {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color:#f0466f ;
     
 }

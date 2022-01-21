@@ -1,17 +1,16 @@
 
-let contElement = document.getElementById ('container')
+let contElement = document.getElementById  ('container')
 
 for (let i=1 ; i <= 100 ; i++ ) {
-
-
-    if (i % 3 == 0) {
+    
+    if ((i % 3 == 0) && (i % 5 == 0)) {
+        contElement.innerHTML += "<div class='FizzBuzz'>" + i + "</div>"
+    }
+    else if  (i % 3 == 0) {
         contElement.innerHTML += "<div class='Fizz'>" + i + "</div>"
     }
-    else if  (i % 5 == 0) {
+    else if (i % 5 == 0) {
         contElement.innerHTML += "<div class='Buzz'>" + i + "</div>"
-    }
-    else if ((i % 3 == 0) && (i % 5 == 0)) {
-        contElement.innerHTML += "<div class='FlizzBuzz'>" + i + "</div>"
     }
     else {
         contElement.innerHTML += "<div class='box'>" + i + "</div>"
