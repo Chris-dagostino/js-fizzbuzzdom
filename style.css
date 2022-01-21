@@ -19,14 +19,30 @@ h1 {
     max-width: 700px;
     margin: 100px auto;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .box {
     width: 100px;
     height: 100px;
     display: flex;
-    flex-wrap: wrap;
+    margin: 5px;
     justify-content: center;
     align-items: center;
     background-color: #0180a8;
+}
+
+.Fizz {
+    background-color: ;
+    
+}
+
+.Buzz {
+    background-color: ;
+
+}
+
+.flizzBuzz {
+    background-color: ;
+    
 }
